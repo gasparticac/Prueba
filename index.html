@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SAG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <div class="w3-top">
+      <div class="w3-bar w3-red">
+        <span class="branding w3-bar-item w3-mobile">SAG Refinería</span>
+        <span class="w3-right w3-mobile">
+        <a class="w3-bar-item w3-button w3-mobile w3-hover-white" href="#informacion">Información</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-white" href="#services">Servicios</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-white" href="#puntaje">Consulta tus puntos</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-white" href="#sucursales">Contactanos</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-white" href="#registrate"button onclick="document.getElementById('start-modal2').style.display='block'"">Registrate</button></a>
+        </span>
+      </div>
+    </div>
+
+    <!-- SHOWCASE -->
+    <section class="showcase">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow" style="text-shadow:2px 2px 4 #444">EL COMBUSTIBLE DE TUS SUEÑOS</h1>
+        <hr>
+        <p class="w3-text-shadow">Somos una empresa Regional dedicada a procesar, transportar y comercializar hidrocarburos.
+            </p>
+        <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-red w3-large">Ingresa</button>
+      </div>
+    </section>
+
+    <!-- SECTION 1 -->
+    <section id="informacion" class="section w3-red w3-hover-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-home"></i>
+        <h2>Bienvenido</h2>
+        <p><b>Buscamos ser la mejor opción para los clientes, excediendo sus expectativas y asegurando la calidad de nuestros productos y servicios, superando a la competencia. Consolidarnos como la mejor alternativa para los productores de materia prima y prestadores de servicio. Crecer y afianzarnos con rentabilidad, agregando valor a nuestros accionistas. Crear y mantener un ambiente de trabajo participativo e innovador que maximice las capacidades de nuestra gente a través de equipos de alto desempeño, constituyéndose en una oportunidad para trascender las expectativas de desarrollo personal y profesional.</b></p>
+      </div>
+    </section>
+
+    
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="w3-container">
+        <div class="w3-row-padding">
+          <div class="w3-col m5">
+            <img src="img/about.jpg"  class="">
+          </div>
+          <div class="w3-col m7">
+            <button onclick="accFunction('what')" class="w3-btn-block w3-left-align w3-hover-red">
+            ¿Qué hacemos?</button>
+
+            <div id="what" class="w3-container w3-show">
+              <h3>El combustible de más alta calidad</h3>
+              <p>La industria automotriz perfecciona el diseño de los motores de forma permanente para mejorar su rendimiento y disminuir el impacto ambiental. En SAG Refineria trabajamos activamente para estar a la vanguardia del adelanto tecnológico y acompañar con la calidad de nuestros combustibles el desarrollo de la industria y el requerimiento de nuestros clientes.
+              Nuestros productos cumplen con los máximos niveles de calidad en el mercado porque ofrecen la mejor performance del motor junto a un exigente cuidado al medio ambiente.</p>
+            </div>
+
+
+         
+
+
+            <button onclick="accFunction('who')" class="w3-btn-block w3-left-align w3-hover-red">
+            Sistema de Turnos</button>
+            <div id="who" class="w3-container w3-hide">
+              <h3>Reservá tu turno <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-red w3-large">ACA</button>.</p></h3>
+              <p>Ahora podes reservar tu turno via on-line. Podes elegir el tipo de servicio deseado: Lubricación y Diagnóstico, Checkeo de parabrisas o simplemente para realizar una reserva de espacio.   
+            </div>
+
+            <button onclick="accFunction('where')" class="w3-btn-block w3-left-align w3-hover-red">
+            Sistema de puntos</button>
+
+            <div id="where" class="w3-container w3-hide">
+              <h3>El puntaje</h3>
+              <p>Con tu compra de combustible o la utilización de alguno de nuestros servicios, estas sumando puntos a tu cuenta SAG. A esos puntos podes canjearlos por futuros descuentos del 0.1% en nafta, pasajes a pie a los destinos que vos elijas o simplemente donarlos al vecino.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES HEADING -->
+    
+
+    <section id="puntaje" class="section w3-white w3-hover-red">
+      <div class="w3-container w3-center">
+         <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-large"><h1 class="">CONSULTA TUS PUNTOS</h1></button>
+        <p>Para ello deberás estar registrado, si todavia no tenes cuenta, podes clickear en la parte superior derecha en Registrarte.</p>
+      </div>
+    </section>
+
+
+    <section id="services" class="section w3-white w3-hover-red">
+      <div class="w3-container w3-center">
+         <h1 class="w3-text-shadow">NUESTROS SERVICIOS</h1>
+        <p>Brindamos servicios de Lubricación y Diagnóstico en nuestras sucursales de SAG además de cambiarte el aceite con CASTOR, un ESPECIALISTA te revisa los puntos más importantes de tu auto sin cargo (partes mecánicas, fluidos y filtros, elementos de seguridad y lubricantes).</p>
+      </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="section w3-light-grey">
+      <div class="w3-container w3-center">
+        <div class="w3-row">
+          <div class="w3-col m3">
+            <i class="fa fa-comment w3-red w3-padding-small w3-round-xlarge"></i>
+            <h3>Atención al cliente</h3>
+            <p>Llamanos al 0-800-123456</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-search w3-red w3-padding-small w3-round-xlarge"></i>
+            <h3>Mecanicos especializados</h3>
+            <p>Los mas capacitados del país</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-cubes w3-red w3-padding-small w3-round-xlarge"></i>
+            <h3>Institucional</h3>
+            <p>Brindamos capacidad de franquiciar</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-cloud w3-red w3-padding-small w3-round-xlarge"></i>
+            <h3>Catalogo repuestos</h3>
+            <p>Los mas baratos de la cuadra</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT HEADING -->
+    <section id="sucursales" class="section w3-dark-grey<">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">MANTENTE EN CONTACTO</h1>
+        <p>Acercate a cualquiera de nuestras sucursales en toda la provincia de La Rioja o llamanos gratis al <link>0-800-123456</link>. Nos encantaría saber tu opinión.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d868.7876500895862!2d-66.8714761708334!3d-29.424394498881995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427dbc44b3ae0c3%3A0x6d3a07bbfe9de605!2sLos+Cedros+798%2C+F5300+La+Rioja!5e0!3m2!1ses-419!2sar!4v1504757492113" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section">
+      <div class="w3-container">
+        <div class="w3-card-4">
+          <div class="w3-container w3-dark-grey">
+            <h2>Contactanos</h2>
+          </div>
+            <form class="w3-container w3-padding-xlarge">
+            <label class="w3-label">Nombre</label>
+            <input class="w3-input" type="text">
+            <label class="w3-label">Email</label>
+            <input class="w3-input" type="text">
+            <label class="w3-input">Mensaje</label>
+            <textarea class="w3-input w3-border" style="resize:none"></textarea>
+            <br>
+            <button type="submit" class="w3-button w3-dark-grey">Enviar!</button>
+            <br><br>
+            </form>
+          </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="w3-black w3-padding-xlarge w3-center">
+      <p>SAG Refinería &copy; 2017</p>
+    </footer>
+
+    <!-- MODAL -->
+    <div id="start-modal" class="w3-modal">
+      <div class="w3-modal-content">
+        <header class="w3-container w3-red">
+          <span onclick="document.getElementById('start-modal').style.display='none'" class="w3-closebtn">&times;</span>
+          <h2>Login</h2>
+        </header>
+
+        <div class="w3-container">
+          <form>
+            <div class="w3-section">
+              <label>Usuario</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Ingresá nombre de usuario">
+              <label>Contraseña</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Ingresa tu contraseña">
+              <button class="w3-black w3-btn-block w3-section w3-padding">Ingresar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function accFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+          } else {
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
+      </script>
+
+
+      <!-- MODAL 2-->
+
+      <div id="start-modal2" class="w3-modal">
+      <div class="w3-modal-content">
+        <header class="w3-container w3-red">
+          <span onclick="document.getElementById('start-modal2').style.display='none'" class="w3-closebtn">&times;</span>
+          <h2>Registrate</h2>
+        </header>
+
+        <div class="w3-container">
+          <form>
+            <div class="w3-section">
+              <label>Nombre y Apellido</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Ingresá tu Nombre y Apellido">
+              <label>DNI</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="DNI">
+              <label>Mail</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Mail">
+              <label>Nombre de Usuario</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Ingresá nombre de usuario">
+              <label>Contraseña</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Ingresa tu contraseña">
+              <label>Repetir Contraseña</label>
+              <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Contraseña">
+              <button class="w3-black w3-btn-block w3-section w3-padding">Registrarte</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function accFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+          } else {
+              x.className = x.className.replace(" w3-show", "");
+          }
+      }
+      </script>
+
+
+  </body>
+</html>
+
